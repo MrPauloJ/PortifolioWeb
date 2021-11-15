@@ -1,0 +1,392 @@
+/*user: u985422762    |
+--------------------------*/
+
+@font-face {
+  font-family: "JS";
+  src: url("fontes/JimmyScript.otf") format("otf");
+}
+@font-face {
+  font-family: "QB";
+  src: url("fontes/qb.otf") format("otf");
+}
+html{
+  animation-name: animation; 
+  animation-duration: 1s;
+  animation-delay: 0s;
+  background-color: #070708;
+  font-family: QB;
+  min-width: 500px;
+}
+*{overflow: hidden; font-family:QB;scroll-behavior: smooth;}
+a{text-decoration: none;}
+nav #logo{
+  height: 100%;
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: 0 5px 5px 50px;
+  padding: 2px;
+  float: left;
+}
+nav #logo img{
+  position: absolute;
+  display: block;
+  height: 50px;
+  margin: 0 auto;
+}
+nav #links{
+  height: 30px;
+  width: 380px;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.2em;
+  position: relative;
+  color: #262626;
+  top:0;
+}
+nav a{
+  display: inline-block;
+  margin: 0 0 5px 5px;
+  padding: 2px 8px 0 5px;
+  border-radius: 1px;
+  transition:2s;
+  color: #262626;
+  font-family: QB;
+}
+nav a:hover{
+  transition:1s;
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.1);
+}
+nav{
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+  position: fixed;
+  background:  rgba(255, 255, 255, 0.95);
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  z-index: 1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+scroll-container{
+  overflow-y: scroll;
+  overflow-y: hidden;
+  top:40px;
+  left:0;
+  right: 0;
+  width: 100%;
+  height: 95%;
+  scroll-behavior: smooth;
+  position: fixed;
+}
+.scrollpage {
+  display: flex;
+}
+#home{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+#home h1{
+  font-size: 4em;
+  text-align: center;
+  font-family: QB;
+}
+#home #introduction p{
+  font-size: 30px;
+  text-align: center;
+  font-family: QB;
+}
+#home #introduction{
+  height: 100%;
+  width: 50%;
+  background:  #2F4F4F;
+  float: left;
+  margin: 0;
+  position: relative;
+  display: block;
+}
+#home figure{
+  display: block;
+  clear: right;
+  height: 100%;
+  width: 50%;
+  background: #f0f0f0;
+  float:  right;
+  margin: 0 auto;
+  position: relative;
+}
+#home img{
+  width: 60%;
+  border-radius: 180px;
+  position: relative;
+  display: block;
+  margin: 20px auto;
+}
+#home figcaption{
+  margin: -20px;
+  font-family:JS;
+  text-align: center;
+  font-size:50px;
+}
+#home footer{
+  font-size: 22px;
+  position: relative;
+  left: 0;
+  top:0;
+  height: 30%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+#curriculo{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #262626;
+  text-align: center;
+}
+#curriculo iframe{
+  display: block;
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+#curriculo img{
+  display: block;
+  position: relative;
+  width: 30%;
+  margin-top:15px;
+  margin-left: 7%;
+  float:left;
+}
+#curriculo img:hover{
+    width:100%;
+    position:absolute;
+    margin-top:0;
+    margin-left:0;
+}
+#contact{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #B22222;
+  margin: 0 auto;
+}
+#contact #socialMedia{
+  height: 100%;
+  width: 50%;
+  background: #f0f0f0;
+  margin: 0 auto;
+  float:left;
+  position: absolute;
+}
+#contact h1{
+      text-align: center;
+      margin: 10px 0 20px 0;
+      }
+#contact .content_social{
+  height: 25%;
+  max-height:180px;
+  width: 70%;
+  background: #fff;
+  padding: 5px;
+  margin: 0 auto;
+ margin-top: 5px;
+  color:#262626;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  overflow:hidden;
+}
+#contact .content_social:hover{
+  box-shadow: 5px 5px 5px #262626;
+  transform: scale(1.1);
+  z-index: 2;
+}
+#contact p{
+  display: block;
+  text-align: right;
+  float: right;
+  font-size: 30px;
+  margin: 50px 20px;
+}
+#contact img{
+  float:left;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+#contact #form{
+  height: 97%;
+  width: 50%;
+  float: right;
+  display: block;
+  padding: 10px;
+}
+#contact form{
+  margin-top: 50px;
+}
+#contact input, textarea{
+  border: none;
+  font-size: 12px;
+  padding: 5px;
+  background: #ddd;
+}
+#contact input:focus, textarea:focus{
+  box-shadow: 5px 5px 15px 1px #262626;
+}
+#contact input,textarea,span{
+  margin-left: 50px;
+  margin-top: 5px;
+}
+#contact input[type="submit"]{
+  background: #262626;
+  color:#fff;
+  transition: 1s;
+  border-radius: 2px;
+  width: 250px;
+}
+#contact input[type="submit"]:hover{
+  background: #f2f2f2;
+  color:#262626;
+  border-radius: 5px;
+  transform: scale(1.1);
+  margin-left: 110px;
+  text-align:left;
+}
+#Contact .text_form{
+  font-size: 20px;
+  font-family: QB;
+}
+#about{
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #262626;
+  transition: 1s;
+}
+#about #its_me{
+  display: block;
+  height: 100%;
+  width: 50%;
+  background:  #d9d9d9/*#2d3436 #2C3A47 #008B8B*/;
+  margin: 0;
+  text-align: center;
+  float: left;
+}
+#about h1{
+  font-size: 70px;
+  margin: 0;
+  font-family: QB;
+}
+#about p{
+  font-size: 20px;
+  margin: 10px auto;
+  font-family: QB;
+  padding: 5px;
+  width:90%;
+  text-align:justify;
+}
+#about #its_me img{
+  width: 40%;
+  margin: 0 auto;
+}
+#about #me{
+  margin: 0;
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+#about #me img{
+  width: 80%;
+  border-radius: 90px 180px 90px 180px;
+  margin: 25px auto;
+  display: block;
+}
+
+#about #just{
+	margin: 0 auto;
+	width:90%;
+	text-align:justify;
+}
+
+
+
+
+
+@keyframes animation{
+  0% {
+    opacity: 0;
+    transition: 4s;
+    z-index: 100000; }
+  15% {
+    opacity: 0.2;
+    z-index: 100000; }
+  60% {
+    opacity: 0.5;
+    z-index: 100000; }
+  80% {
+    opacity: 0.7;
+    z-index: 100000; }
+  90% {
+    opacity: 0.9;
+    z-index: 100000; }
+  100% {
+    opacity: 1;
+     } 
+}
+
+
+@media only screen and (max-width: 600px) {
+    html,body,head, #home #introduction p, footer span, #about p {
+        font-size: 14px; 
+   }
+   nav #logo {
+       margin: 0 5px 5px 5px;
+  }
+  nav a {
+      margin: 10px 0 5px 5px;
+  } 
+  #home #introduction{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #introduction h1{
+       font-size:3em;
+  }
+  #home #introduction h1,p,footer{display:block; width:100%;}
+  #home footer {
+       display:block;
+       height: 100px;
+  }
+  #curriculo img {
+      width: 40%;
+      margin-left: 5%;
+      margin-top:25%;
+  }
+  #contact img {
+       width: 50%;
+       height:auto;
+  }
+  #contact p{
+       margin:0;
+       font-size: 20px;
+  }
+  #contact h1 {
+      text-align: center;
+      margin: 10px 10px 20px 20px;
+  }
+  #about h1 {
+    margin:10px;
+    font-size: 3em;
+  }
+}

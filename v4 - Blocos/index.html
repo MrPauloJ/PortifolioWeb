@@ -1,0 +1,105 @@
+ 
+<!Doctype Html>
+<html>
+<head>
+  <title> Paul's Site S2</title>
+  <link rel="icon" type="image/x-icon" href="imgs/logo.png"/>
+  <link rel="stylesheet" type="text/css" href="estilo.css" media="screen"/>
+  <!--<link rel="stylesheet" type="text/css" href="estilo1*.css" media="screen"  />-->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <nav>
+    <div id="logo">
+      <img src="imgs/logo.png" alt="logo_MrPauloJ" />
+    </div>
+    <div id="links">
+        <a href="#home"> Home </a>
+       <a href="#curriculo"> Curriculo </a>
+       <a href="#contact"> Contact </a>
+       <a href="#about"> About </a>
+    </div>
+  </nav>
+  <scroll-container>
+    <div id="home" class="scrollpage">
+      <a name="home">
+      <div id="introduction" class="scrollpage">
+        <h1>Wellcome !!</h1>
+        <p>Seja bem vindo ao meu portifólio pessoal, aqui você encontra informações etc. <br><br> Qualquer dúvida entre em contato comigo.</p>
+        <footer>
+			<p>Este site foi desenvolvido pelo mesmo. <br> Todos direito reservados &copy; Copyright</p> 
+		</footer>
+      </div>
+      <figure id="figTop">
+        <img src="imgs/me.jpg" alt="paulo"/>
+        <figcaption>Paulo Junior</figcaption>
+      </figure>
+    </div>
+    <div id="curriculo" class="scrollpage">
+      <a name="curriculo">
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vQQjwubYvDhZ3QssmXRJGQL8U1W4bsL8m5qucxTD8fpy4SubmhPMkZx7xW2spcoplve0cPJTD0extII/pub?embedded=true" frameBorder=0></iframe>
+<!--http://trosleihard.000webhostapp.com/dev/curriculo.pdf-->
+<!-- <iframe style="WIDTH: 600px; HEIGHT: 500px" src="http://docs.google.com/gview?url=XXXendereçoXXX&amp;embedded=true" frameBorder=0></iframe>-->
+      <img src="imgs/certificate.png"/>
+    </div>
+    <div id="contact" class="scrollpage">
+      <a name="contact">
+      <div id="socialMedia">
+        <h1>Redes Sociais:</h1>
+          <a href="http://www.facebook.com/junin.dasgalaxias" target="_blank">
+            <div class="content_social" id="facebook">
+              <img src="imgs/fb.png" alt="fb_Paulo" />
+              <p>Facebook <br> -Paulo Junior</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/mrpauloj " target="_blank">
+            <div class="content_social" id="linkedin">
+              <img src="imgs/linkedin.png" alt="lnk_Paulo" />
+              <p>Linkedin <br>  - Paulo Junior</p>
+            </div>
+          </a>
+          <a href="http://www.instagram.com/mrpaulo_j"  target="_blank">
+            <div class="content_social" id="instagram">
+              <img src="imgs/insta.png" alt="insta_Paulo" />
+              <p>Instagram  <br>  - @Mrpaulo_J</p>
+            </div>
+          </a>
+      </div>
+      <div id="form" class="scrollpage">
+        <h1>Formulário para contato:</h1>
+        <form action="mail_send.php" method="post">
+          <span class="text_form">Nome</span><br />
+          <input name="name" type="name" placeholder="Ex.: João, Maria" required="required" maxlength="50" minlength="2" size="20px"/><br />
+          <span class="text_form">Email</span><br />
+          <input name="email" type="email" placeholder="Ex.: Exemple@Exemple.com" required="required" maxlength="70" minlength="2" size="30px"/><br />
+          <span class="text_form">Text</span><br />
+          <textarea name="text" type="text" placeholder="Ex.: Hi, i need talk with you, please return something! -Paulo" required="required" minlength="10" rows="10" cols="50" resize="none"  style="resize: none"></textarea><br />
+          <a href="malito::pier.lon@hotmail.com" > <input type="submit" value="Submit"> </a>
+        </form>
+      </div>
+    </div>
+    <div id="about" class="scrollpage">
+      <a name="about">
+      <div id="its_me" class="scrollpage">
+        <h1>About Me</h1>
+        <p id="just">
+          Um verdadeiro amante do clássico, dos Livros, poesia e da arte, além do mais não poderia faltar a bela melodia de fundo e seu instrumento musical
+		  com suas harmonias suavizando todo ambiente, é justamente essa calmaria que nos proporciona a meditação, a consciência, a captar a própria essência. 
+		  Podemos imaginar todo esse cenário como uma bela fotografia na qual o designer propõe ressaltar os melhores detalhes, transformando-a num investimento promissor. 
+		  A programação talvez seja extença mas com um certo jeito diante de todos eventos citados a gastronomia não pode fugir do chef e Bon Apetit. <br />
+        </p>
+        <hr width="600px" color="#000"/>
+        <p>
+          De uma forma simplificada um Investidor, Músico, Escritor, Programador,
+          Designer, Cozinheiro, Fotografo, Viajante, Voluntário, Geek, Diversificado.
+        </p>
+        <img src="imgs/logo.png" alt="MrPaulo" />
+      </div>
+      <div id="me">
+        <img src="imgs/me2.jpg" alt="MrpaulJ" />
+      </div>
+    </div>
+  </scroll-container>
+</body>
+</html>

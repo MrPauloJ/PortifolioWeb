@@ -1,0 +1,20 @@
+ 
+--------bitoin------
+*blockchain*
+id = 1dfdfae7-8bec-4131-8799-705e246412ce
+end= 1ezgQBqL2nzBfcZNhXBwuF95T4qWyCmAb
+senha = bass_juninho07
+--------------------
+
+------ethereum------
+*https://www.myetherwallet.com*
+senha= killernoob0
+id=d54a6e671b0a0163aff28998a4569bd30c42bee4fcecf2b1d456473bd5249a85
+end=0xc0CC36eB4cC3c1A48e76d364E2877c424481be8b
+--------------------
+
+ganhar ethereumsite:
+ticket:BJI8LV
+
+*https://ethonline.io/dashboard*
+senha :1234
