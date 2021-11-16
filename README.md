@@ -9,7 +9,7 @@ Ideias de portfólio
 
 - v4
   - Leves desajustes responsivo em alguns dispositivos
-  - Mailphp está desatualizado ( talvez descontinuado )
+  - Mail() precisa de emails validos para funcionar
 
 - v5
   - Ideia: Timeline (esquerda) e Feed/Conteúdo (meio)
