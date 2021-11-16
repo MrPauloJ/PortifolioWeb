@@ -9,7 +9,7 @@ Email = $email\n
 Mensagem = $mensagem\n
 ";
 
-$headers = 'From: Portifolio <'.$email.'>'."\r\n" .
+$headers = 'From: Portifolio <no-reply@trosleihard.com>'."\r\n" . // substituir por um email base, evita ir para spam
         'Reply-To:'.$email."\r\n" .
         'X-Mailer: MyFunction/' . phpversion().
         'MIME-Version: 1.0' . "\n".
