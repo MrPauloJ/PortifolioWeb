@@ -1,17 +1,17 @@
 # PortifolioWeb
 
-Ideias de portfólio
+Just some ideias about a personal portfolio
 
-### Comentários
+### Comments
 
-- Versões anteriores ( < v4 )
-  - Descontinuadas para não passar vergonha
+- Old Versions ( < v4 )
+  - Discontinued due to shame (Poor Design Style)
 
 - v4
-  - Leves desajustes responsivo em alguns dispositivos
-  - Mail() precisa de emails validos para funcionar
+  - Slight responsive mismatches on some devices
+  - The Mail() function needs a valid email address
 
 - v5
-  - Ideia: Timeline (esquerda) e Feed/Conteúdo (meio)
-  - Em construção
+  - Idea: Timeline (left) e Feed/Content (mid)
+  - Under construction
  
